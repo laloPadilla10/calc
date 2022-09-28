@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Este archivo engloba todo lo de bootstrap -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+        <div class="row justify-content-center my-4">
+            <div class="col"><input type="text" id='num1' placeholder="Inserta Número 1"></div>
+            <div class="col"><input type="text" id='num2' placeholder="Inserta Número 2"></div>
+        </div>
+        <div class="row justify-content-center my-4">
+            <div class="col">
+                <p><a id='sum' class="btn btn-primary" onclick=""><i class="fa-solid fa-plus"></i></a></p>
+            </div>
+            <div class="col">
+                <p><a id="res" class="btn btn-primary" onclick=""><i class="fa-solid fa-minus"></i></a></p>
+            </div>
+            <div class="col">
+                <p><a id="mul" class="btn btn-primary"><i class="fa-solid fa-xmark"></i></a></p>
+            </div>
+            <div class="col">
+                <p><a id="div" class="btn btn-primary"><i class="fa-solid fa-divide"></i></a></p>
+            </div>
+        </div>
+
+        <div class="row my-1 text-center">
+            <div class="col">
+                <input class='col' placeholder="Resultado" id='result' type="number">
+            </div>
+        </div>
+    </div>
+    <script src="/scripts.js"></script>
+
+</body>
+
+</html>
